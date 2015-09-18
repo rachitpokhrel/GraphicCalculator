@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GCExpressionViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *expressionTextField;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "GCExpressionViewController.h"
+#import "GCGraphViewController.h"
 
 @interface GCExpressionViewController ()
 
@@ -24,14 +25,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    GCGraphViewController *controller = [segue destinationViewController];
+    controller.expression = self.expressionTextField.text;
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end

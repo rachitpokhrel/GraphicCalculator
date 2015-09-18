@@ -10,11 +10,16 @@
 		3C7AF9AA1BAC5359000A602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9A91BAC5359000A602F /* main.m */; };
 		3C7AF9AD1BAC5359000A602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9AC1BAC5359000A602F /* AppDelegate.m */; };
 		3C7AF9B01BAC5359000A602F /* GraphicCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9AE1BAC5359000A602F /* GraphicCalculator.xcdatamodeld */; };
-		3C7AF9B31BAC5359000A602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9B21BAC5359000A602F /* ViewController.m */; };
+		3C7AF9B31BAC5359000A602F /* GCGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9B21BAC5359000A602F /* GCGraphViewController.m */; };
 		3C7AF9B61BAC5359000A602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AF9B41BAC5359000A602F /* Main.storyboard */; };
 		3C7AF9B81BAC5359000A602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AF9B71BAC5359000A602F /* Images.xcassets */; };
 		3C7AF9BB1BAC5359000A602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AF9B91BAC5359000A602F /* LaunchScreen.xib */; };
 		3C7AF9C71BAC5359000A602F /* GraphicCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9C61BAC5359000A602F /* GraphicCalculatorTests.m */; };
+		3C7AF9D21BAC539E000A602F /* GCGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9D11BAC539E000A602F /* GCGraph.m */; };
+		3C7AF9D81BAC5757000A602F /* GCRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9D71BAC5757000A602F /* GCRootTableViewController.m */; };
+		3C7AF9DB1BAC5F8D000A602F /* GCExpressionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9DA1BAC5F8D000A602F /* GCExpressionViewController.m */; };
+		3C7AF9E51BAC6426000A602F /* GCMathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9E41BAC6426000A602F /* GCMathParser.m */; };
+		3C7AF9EB1BAC888A000A602F /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF9EA1BAC888A000A602F /* AxesDrawer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,24 @@
 		3C7AF9AB1BAC5359000A602F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C7AF9AC1BAC5359000A602F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3C7AF9AF1BAC5359000A602F /* GraphicCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraphicCalculator.xcdatamodel; sourceTree = "<group>"; };
-		3C7AF9B11BAC5359000A602F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C7AF9B21BAC5359000A602F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C7AF9B11BAC5359000A602F /* GCGraphViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCGraphViewController.h; sourceTree = "<group>"; };
+		3C7AF9B21BAC5359000A602F /* GCGraphViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCGraphViewController.m; sourceTree = "<group>"; };
 		3C7AF9B51BAC5359000A602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C7AF9B71BAC5359000A602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C7AF9BA1BAC5359000A602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3C7AF9C01BAC5359000A602F /* GraphicCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7AF9C51BAC5359000A602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C7AF9C61BAC5359000A602F /* GraphicCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicCalculatorTests.m; sourceTree = "<group>"; };
+		3C7AF9D01BAC539E000A602F /* GCGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCGraph.h; sourceTree = "<group>"; };
+		3C7AF9D11BAC539E000A602F /* GCGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCGraph.m; sourceTree = "<group>"; };
+		3C7AF9D61BAC5757000A602F /* GCRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCRootTableViewController.h; sourceTree = "<group>"; };
+		3C7AF9D71BAC5757000A602F /* GCRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCRootTableViewController.m; sourceTree = "<group>"; };
+		3C7AF9D91BAC5F8D000A602F /* GCExpressionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCExpressionViewController.h; sourceTree = "<group>"; };
+		3C7AF9DA1BAC5F8D000A602F /* GCExpressionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCExpressionViewController.m; sourceTree = "<group>"; };
+		3C7AF9E31BAC6426000A602F /* GCMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCMathParser.h; sourceTree = "<group>"; };
+		3C7AF9E41BAC6426000A602F /* GCMathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCMathParser.m; sourceTree = "<group>"; };
+		3C7AF9E91BAC888A000A602F /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
+		3C7AF9EA1BAC888A000A602F /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +80,7 @@
 		3C7AF99B1BAC5359000A602F = {
 			isa = PBXGroup;
 			children = (
+				3C7AF9DC1BAC6021000A602F /* Math Parser */,
 				3C7AF9A61BAC5359000A602F /* GraphicCalculator */,
 				3C7AF9C31BAC5359000A602F /* GraphicCalculatorTests */,
 				3C7AF9A51BAC5359000A602F /* Products */,
@@ -85,13 +101,21 @@
 			children = (
 				3C7AF9AB1BAC5359000A602F /* AppDelegate.h */,
 				3C7AF9AC1BAC5359000A602F /* AppDelegate.m */,
-				3C7AF9B11BAC5359000A602F /* ViewController.h */,
-				3C7AF9B21BAC5359000A602F /* ViewController.m */,
+				3C7AF9B11BAC5359000A602F /* GCGraphViewController.h */,
+				3C7AF9B21BAC5359000A602F /* GCGraphViewController.m */,
 				3C7AF9B41BAC5359000A602F /* Main.storyboard */,
 				3C7AF9B71BAC5359000A602F /* Images.xcassets */,
 				3C7AF9B91BAC5359000A602F /* LaunchScreen.xib */,
 				3C7AF9AE1BAC5359000A602F /* GraphicCalculator.xcdatamodeld */,
 				3C7AF9A71BAC5359000A602F /* Supporting Files */,
+				3C7AF9D01BAC539E000A602F /* GCGraph.h */,
+				3C7AF9D11BAC539E000A602F /* GCGraph.m */,
+				3C7AF9E91BAC888A000A602F /* AxesDrawer.h */,
+				3C7AF9EA1BAC888A000A602F /* AxesDrawer.m */,
+				3C7AF9D61BAC5757000A602F /* GCRootTableViewController.h */,
+				3C7AF9D71BAC5757000A602F /* GCRootTableViewController.m */,
+				3C7AF9D91BAC5F8D000A602F /* GCExpressionViewController.h */,
+				3C7AF9DA1BAC5F8D000A602F /* GCExpressionViewController.m */,
 			);
 			path = GraphicCalculator;
 			sourceTree = "<group>";
@@ -120,6 +144,15 @@
 				3C7AF9C51BAC5359000A602F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C7AF9DC1BAC6021000A602F /* Math Parser */ = {
+			isa = PBXGroup;
+			children = (
+				3C7AF9E31BAC6426000A602F /* GCMathParser.h */,
+				3C7AF9E41BAC6426000A602F /* GCMathParser.m */,
+			);
+			name = "Math Parser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +257,13 @@
 			files = (
 				3C7AF9AD1BAC5359000A602F /* AppDelegate.m in Sources */,
 				3C7AF9AA1BAC5359000A602F /* main.m in Sources */,
-				3C7AF9B31BAC5359000A602F /* ViewController.m in Sources */,
+				3C7AF9E51BAC6426000A602F /* GCMathParser.m in Sources */,
+				3C7AF9B31BAC5359000A602F /* GCGraphViewController.m in Sources */,
+				3C7AF9EB1BAC888A000A602F /* AxesDrawer.m in Sources */,
+				3C7AF9DB1BAC5F8D000A602F /* GCExpressionViewController.m in Sources */,
 				3C7AF9B01BAC5359000A602F /* GraphicCalculator.xcdatamodeld in Sources */,
+				3C7AF9D21BAC539E000A602F /* GCGraph.m in Sources */,
+				3C7AF9D81BAC5757000A602F /* GCRootTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

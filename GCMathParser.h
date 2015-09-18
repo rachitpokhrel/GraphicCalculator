@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface GCMathParser : NSObject
-
+-(NSNumber *)evaluateExpression:(NSString*)string atInterval:(NSNumber*)xValue;
 @end

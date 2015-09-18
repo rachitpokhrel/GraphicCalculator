@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GCGraph : UIView
-
+-(instancetype)initWithFrame:(CGRect)frame expression:(NSString*)expression;
 @end

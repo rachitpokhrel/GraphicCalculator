@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface GCGraphViewController : UIViewController
+@property (nonatomic, strong) NSString *expression;
 @end
 

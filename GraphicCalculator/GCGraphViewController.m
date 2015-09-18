@@ -6,16 +6,21 @@
 //  Copyright (c) 2015 Rachit. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "GCGraphViewController.h"
+#import "GCGraph.h"
 
-@interface ViewController ()
+
+@interface GCGraphViewController ()
 
 @end
 
-@implementation ViewController
+@implementation GCGraphViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    GCGraph *graph = [[GCGraph alloc] initWithFrame:self.view.frame expression:self.expression];
+    [self.view addSubview:graph];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

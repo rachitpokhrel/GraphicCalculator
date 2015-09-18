@@ -10,4 +10,10 @@
 
 @implementation GCMathParser
 
+-(NSNumber *)evaluateExpression:(NSString *)string atInterval:(NSNumber*)xValue
+{
+    int y = pow([xValue intValue], 3);
+    return [NSNumber numberWithInt:y];
+}
+
 @end
